@@ -85,7 +85,7 @@ body, html {
 /* SECTIONS */
 .home-section,
 #about {
-    min-height: 100vh;
+    min-height: 80vh;
     padding: 120px 6% 60px;
 }
   .home-section { 
@@ -103,6 +103,17 @@ body, html {
     align-items: center;
     text-align: center;
     background: linear-gradient(45deg, rgba(44, 44, 46, 0.7), rgba(47, 48, 51, 0.7)), url('images/school.jpeg') no-repeat center center/cover;
+}
+.update{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: skyblue; 
+    color: #333;
+    min-height: 50vh;
+    padding: 120px 6% 60px;
 }
 
 .hm  {
