@@ -9,26 +9,34 @@
 </head>
 <body>
 
-  <nav class="navbar animate_animated animate_fadeInDown">
-        <div class="logo">SATROP <span>SCHOOLS</span></div>
-        <ul class="nav-links">
-            <li class="dropdown">
-                <a href="#">Admission</a>
-                <div class="dropdown-content">
-                    <a href="admission-form.html">Admission Form</a>
-                    <a href="feedback.html">Make Enquiries</a>
-                </div>
-            </li>
-            <li class="dropdown">
-                <a href="#">About Us</a>
-                <div class="dropdown-content">
-                    <a href="updates.html">Latest Update</a>
-                    <a href="gallery.html">Classroom/Gallery</a>
-                    <a href="facy.html">Facilities</a>
-                </div>
-            </li>
-        </ul>
-    </nav>
+<nav class="navbar">
+    <div class="logo">SATROP <span>SCHOOLS</span></div>
+
+    <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+
+    <ul class="nav-links" id="navLinks">
+        <li class="dropdown">
+            <a href="index.html">Home</a>
+        </li>
+
+        <li class="dropdown">
+            <a href="#">Admission</a>
+            <div class="dropdown-content">
+                <a href="admission-form.html">Admission Form</a>
+                <a href="feedback.html">Make Enquiries</a>
+            </div>
+        </li>
+
+        <li class="dropdown">
+            <a href="#">About Us</a>
+            <div class="dropdown-content">
+                <a href="mission.html">Mission</a>
+                <a href="updates.html">Latest Update</a>
+                <a href="gallery.html">Classroom/Facilities</a>
+            </div>
+        </li>
+    </ul>
+</nav>
   
     <section id="about">
         <h1 class="animate_animated animate_fadeInDown" style="font-size: 100px; font-weight: bolder;">SATROP SCHOOLS</h1>
@@ -39,9 +47,9 @@ Our class sizes are small, with one or two classes per year group – and we tak
             <span class="dropdown">
                 <button class="dropbtn">About Us ▾</button>
                 <div class="dropdown-content">
+                    <a href="mission.html">Mission</a>
                     <a href="updates.html">Latest Update</a>
-                    <a href="gallery.html">Classroom/Gallery</a>
-                    <a href="facy.html">Facilities</a>
+                    <a href="gallery.html">Classroom/Facilities</a>
                 </div>
             </span>
         </div>
@@ -128,11 +136,12 @@ Our class sizes are small, with one or two classes per year group – and we tak
              and prepare them for a life of service and commitment.</p>
             <span style="color: rgb(195, 167, 27); font-weight: bold;"> Mrs. Sarah Amusa</span> </div>
             <div class="pillar"><h3 style="color: rgba(207, 222, 5, 0.95);">Curriculum</h3><p>SATROP Schools offer a broad, integrated curriculum combining the British and Nigerian curricula. In our primary school, pupils develop essential academic skills through engaging activities that promote communication, collaboration, creativity, and critical thinking across subjects such as Literacy, Numeracy, Science, ICT, Art, French, and Social Studies. In the Early Years, we follow the Montessori method, using hands-on learning to build knowledge, skills, and curiosity across key developmental areas. Supported by trips and projects, our curriculum encourages exploration, lateral thinking, and a genuine interest in the world.</p></div>
-            <div class="pillar"><h3 style="color: rgba(207, 222, 5, 0.95);">Learning Tools</h3><p style="text-align: center;"><img src="images/hp.jpeg" style="width: 50px; height: 50px;"> <img src="images/micro.jpeg"  style="width: 50px; height: 50px;"> <img src="images/office.jpeg"  style="width: 50px; height: 50px;"> <img src="images/zoom.jpeg"  style="width: 50px; height: 50px;"></p></div>
+            <div class="pillar"><h3 style="color: rgba(207, 222, 5, 0.95);">Learning Tools</h3><p style="text-align: center;"><img src="images/hp.jpeg" style="width: 80px; height: 80px;"> <img src="images/micro.jpeg"  style="width: 80px; height: 80px;"> <img src="images/office.jpeg"  style="width: 80px; height: 80px;"> <img src="images/zoom.jpeg"  style="width: 80px; height: 80px;"></p></div>
             <div class="pillar"><h3 style="color: rgba(207, 222, 5, 0.95);">Learning Support</h3><p>All children need learning support at different stages. Our Learning Support Department works with teachers to adapt the curriculum, provide appropriate resources, and support individual learning needs through assessments and collaboration with staff and parents. Academic clinics help pupils overcome challenges, while our lessons focus on building confidence and independence.</p></div>
         </div>
     </section>   
-    <footer class="home-section section-four">
+    
+<footer class="home-section section-four">
         <div> 
             <h2>Contact Us</h2>
             <p>enquiries@satropschools.com | +2348063741906</p>
